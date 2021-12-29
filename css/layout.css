@@ -1,0 +1,117 @@
+section{
+    border-radius: 0;
+}
+
+
+img{
+    content: url("-");
+}
+
+header{
+    background: red;
+    border: 1px solid red;
+}
+
+#logo{
+    background: blue;
+    border: 1px solid red;
+}
+
+nav{
+    background: rgb(61, 47, 255);
+    border: 1px solid red;
+    padding: 2px;
+}
+
+li{
+    background: yellow;
+    border: 1px solid red;
+}
+
+main{
+    background: yellow;
+    border: 1px solid red;
+}
+
+h1{
+    background: rgb(0, 255, 200);
+    border: 1px solid red;
+}
+.subtitle{
+    background: rgb(189, 161, 85);
+    border: 1px solid red;
+}
+
+#search-box{
+    background: red;
+    border: 1px solid red;
+    border-radius: 0;
+}
+#search-box i{
+    background: rgb(226, 174, 174);
+    border: 1px solid red;
+}
+#search-box input{
+    background: red;
+    border: 1px solid red;
+}
+#search-box{
+    background: red;
+    border: 1px solid red;
+}
+
+#filter{
+    background: rgb(89, 94, 141);
+    border: 1px solid red;
+    border-radius: 0;
+}
+.filter-item a{
+    background: rgb(54, 192, 116);
+    border: 1px solid red;
+    border-radius: 0;
+}
+.filter-item i{
+    background: rgb(141, 131, 89);
+    border: 1px solid red;
+    border-radius: 0;
+}
+.filter-item span, .filter-tittle{
+    background: rgb(89, 139, 141);
+    border: 1px solid red;
+}
+
+#populaires{
+    background: rgb(160, 158, 158);
+    border: 1px solid red;
+}
+h2{
+    background: rgb(179, 116, 116);
+    border: 1px solid red;
+}
+#populaires i{
+    background: black;
+    border: 1px solid red;
+}
+section article{
+    background: rgb(46, 172, 42);
+    border: 1px solid red;
+}
+
+h3{
+    background: rgb(172, 163, 42);
+    border: 1px solid red;
+}
+section i{
+    background: black;
+    border: 1px solid red;
+}
+article img{
+    background: rgb(182, 182, 167);
+    border: 1px solid red;
+    width: 500px;
+    height: 500px;
+}
+.footer-block{
+    background: rgb(230, 108, 213);
+    border: 1px solid red;
+}

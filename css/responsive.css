@@ -1,0 +1,109 @@
+/***   Tablet   ***/
+@media screen and (max-width: 992px){
+
+}
+
+/***   Mobile   ***/
+@media screen and (max-width: 768px){
+    /***   General   ***/
+
+    :root{
+    }
+
+    body{
+        padding: 0 60px;
+
+    }
+    /***   header   ***/
+
+    header{
+                
+        flex-direction: column;
+        height: 260px;
+        justify-content: flex-end;
+
+    }
+
+    header #logo{
+        margin: auto;
+    width: 100px;
+    }
+
+    nav{
+        height: 70px;
+    justify-content: center;
+    }
+
+    nav ul{
+        width: auto;
+    }
+
+    nav li{
+
+    padding: auto;
+    width:50%;
+    justify-content: center;
+    }
+
+    nav li a{
+        
+    }
+
+
+    /***   General   ***/
+
+    #search-box{
+        
+    }
+
+    #filter{
+        
+    }
+
+    #filter li a{
+        
+    }
+
+    /***   main   ***/
+
+    #search-box{
+        
+    }
+
+    section article{
+        
+    }
+
+
+    section article{
+        
+    }
+
+    .note .blue{
+        
+    }
+
+    .note .grey{
+        
+    }
+
+    /***   populaires   ***/
+
+    /***   hebergements   ***/
+
+    #hebergements .grid-container{
+        
+    }
+
+    #hebergements article{
+        
+    }
+
+    /***   activites   ***/
+
+    /***   footer   ***/
+
+    footer{
+        
+    }
+}
