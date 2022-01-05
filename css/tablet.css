@@ -88,8 +88,11 @@
         background: #fff;
     }
 
-    #hebergements article{
+    #hebergements a{
         width: 48%;
+    }
+
+    #hebergements article{
         height:200px;
         margin-top: 25px;
     }
@@ -110,7 +113,7 @@
 
     #activites .item:nth-of-type(1n+0){
         width: 32%;
-        height:190px;
+        height:210px;
     }
     
     /***   footer   ***/
