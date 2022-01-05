@@ -31,7 +31,6 @@
 body{
     font-size: var(--font-size-base);
     margin: 0 auto;
-    /* padding:0 30px; */
     max-width: 1400px;
 }
 
@@ -39,13 +38,11 @@ body{
 h2{
     font-size: var(--font-size-12);
     font-weight: bold;
-    /* margin-bottom: 30px; */
 }
 
 h3{
     font-size: var(--font-size-base);
     font-weight: bold;
-    /* margin: 10px 0; */
 }
 
 p{
@@ -95,14 +92,13 @@ header #logo{
 #logo img{
     height: 100%;
     width: 100%;
-    object-fit:contain; 
+    -o-object-fit:contain;
+       object-fit:contain; 
 }
 
 nav{
     display: flex;
     height:100%;
-    
-
 }
 nav ul{
     display: flex;
@@ -110,20 +106,16 @@ nav ul{
     height:100%;
     justify-content: space-around;
 }
+
 nav li{
     display: flex;
     width: 250px;
     font-size: var(--font-size-12);
     height:100%;
-    /* margin: auto; */
     cursor: pointer;
     justify-content: center;
     align-items: center;
     border-top: 4px solid var(--bg-grey);
-}
-nav li:hover{
-    border-color: var(--main-blue);
-    color: var(--main-blue);
 }
 
 /***   main   ***/
@@ -132,21 +124,12 @@ main{
     padding:0 30px;
 }
 
-section article{
-    background: #fff;
-    border: 4px solid #fff;
-    border-radius: 20px;
-    overflow: hidden; 
-}
-
 #main-block{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     margin: 30px 0;
 }
-
-
 
 /***   Titre   ***/
 
@@ -167,9 +150,6 @@ h1 .main-subtitle{
 /***   Recherche   ***/
 
 #search{
-    /* display: flex; */
-    /* display: block; */
-    /* position: relative; */
     font-size: var(--font-size-12);
     width: 450px;
     height: 48px;
@@ -182,40 +162,27 @@ h1 .main-subtitle{
 
 #search-box{
     display: flex;
-    /* display: block; */
     position: relative;
     width: 100%;
     height: 100%;
-    /* background-color: red; */
     align-items: center;
     justify-content:space-between;
     border:2px solid var(--bg-grey);
 }
 
-
 #map-icon{
-    /* display: block; */
-    /* position: relative;
-    bottom: 2px;
-    right: 2px; */
     aspect-ratio: 1;
-    /* width: 100%; */
     height:  calc(100% + 4px);
     font-size: var(--font-size-12);
     background-color: var(--bg-grey);
-    /* border:2px solid var(--bg-grey); */
     line-height: 44px;
     text-align: center;
     vertical-align: middle;
 }
 
 #search-box input{
-    /* display: inline; */
-    /* position: relative; */
     width: 240px;
-    /* max-width:100%; */
     height: 80%;
-    /* font-size: 18px; */
     line-height: 44px;
     vertical-align: middle;
     padding: 5px;
@@ -228,23 +195,17 @@ h1 .main-subtitle{
 }
 
 #search-btn{
-    /* display: block; */
     position: relative;
     right: -2px;
     width: 140px;
     height: calc(100% + 4px);
     background-color: var(--main-blue);
-    /* border: 2px solid var(--main-blue); */
-    /* border: none; */
-    /* font-size: 18px; */
-    /* font-weight: bold; */
     cursor: pointer;
     z-index: 99;
 }
 
 #btn-text{
     line-height:40px;
-    /* font-size: 18px; */
     font-weight: bold;
     color:#fff;
     vertical-align: middle;
@@ -260,7 +221,6 @@ h1 .main-subtitle{
 #filter{
     display: flex;
     flex-flow: row wrap;
-    /* gap: 10px; */
     font-size: var(--font-size-12);
     font-weight: bold;
     margin: 30px 10px;
@@ -284,21 +244,15 @@ h1 .main-subtitle{
     display: flex;
     flex-flow: row nowrap;
     margin-right:20px;
-    /* margin-bottom:20px; */
-    /* border-radius: 50Px; */
-    /* overflow: hidden; */
 }
 
 .filter-item a{
     display: flex;
     position: relative;
-    /* box-sizing: border-box; */
     height: 48px;
     border: 2px solid var(--bg-grey);
-    /* border-left: none; */
     border-radius: 24Px;
     line-height: 44px;
-    /* overflow: hidden; */
     align-items: center;
 }
 
@@ -325,7 +279,6 @@ h1 .main-subtitle{
     font-size: var(--font-size-base);
     font-weight: bold;
     vertical-align: middle;
-    color: black;
 }
 
 /***   Info   ***/
@@ -351,18 +304,26 @@ h1 .main-subtitle{
 }
 
 #info p{
-    /* margin: 0 10px; */
     font-weight: lighter;
     vertical-align: middle;
-    /* line-height: 24px; */
 }
 
 /***   commun   ***/
 
-.item-text{
-    /* height: 100%; */
+section article{
+    background: #fff;
+    border: 4px solid #fff;
+    border-radius: 20px;
+    overflow: hidden; 
+}
+
+.section-tittle {
     display: flex;
-    /* padding: 10px; */
+    justify-content: space-between;
+}
+
+.item-text{
+    display: flex;
     flex-flow: column nowrap;
     position: relative;
 }
@@ -415,13 +376,13 @@ h1 .main-subtitle{
 #hebergements img{  
     width: 100%;
     height:150px;
-    object-fit: cover; 
+    -o-object-fit: cover;
+       object-fit: cover; 
     overflow: hidden; 
 }
 
 #hebergements .item-text{
     height:85px;
-    /* width: 60%; */
     padding: 8px 0 5px 0;
 }
 
@@ -437,18 +398,13 @@ h1 .main-subtitle{
     margin: 0 5px;
 }
 
-#hebergements a{    
+#more-containt{    
     margin-top: 40px;
     font-size: var(--font-size-base);
     font-weight: bold;
 }
 
 /***   populaires   ***/
-
-.section-tittle {
-    display: flex;
-    justify-content: space-between;
-}
 
 #populaires{
     background: var(--bg-grey);
@@ -457,14 +413,12 @@ h1 .main-subtitle{
     flex-flow: column nowrap;
     padding: 30px 1.5%;
     border-radius: 20px;
-    /* flex-grow: 1; */
 }
 
 #populaires .container{
     display: flex;
     justify-content: space-between;
     flex-flow: column nowrap;
-    /* margin-top: 25px; */
 }
 
 #populaires article{
@@ -473,6 +427,14 @@ h1 .main-subtitle{
     height: 140px;
     margin-top: 25px;
     box-shadow: 0 0 10px #ccc;
+}
+
+#populaires img{
+    height:100%;
+    width: 40%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    overflow: hidden;
 }
 
 
@@ -484,13 +446,6 @@ h1 .main-subtitle{
 
 #populaires .subtitle{
     margin: 6px 0;
-}
-
-#populaires img{
-    height:100%;
-    width: 40%;
-    object-fit: cover;
-    overflow: hidden;
 }
 
 /***   activites   ***/
@@ -550,15 +505,45 @@ h1 .main-subtitle{
     height: 55px;
 }
 
+#activites img{
+    height:100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    overflow: hidden;
+}
+
 #activites h3{
     margin: 18px;
 }
 
-#activites img{
-    height:100%;
-    width: 100%;
-    object-fit: cover;
-    overflow: hidden;
+/***   hover effect   ***/
+
+nav li:hover{
+    border-color: var(--main-blue);
+    color: var(--main-blue);
+}
+
+.filter-item a:hover{
+    color: var(--main-blue);
+    box-shadow: 0 0 5px var(--main-blue);
+}
+
+#hebergements article:hover , #populaires article:hover , #activites article:hover{
+    box-shadow: 0 0 5px var(--main-blue);
+    color: var(--main-blue);
+}
+
+/*** active effect   ***/
+
+.filter-item a:active{
+    color: var(--main-blue);
+    border-color: var(--main-blue);
+}
+
+.filter-item a:active i{
+    color: #fff;
+    background-color: var(--main-blue);
 }
 
 /***   footer   ***/
@@ -566,13 +551,10 @@ h1 .main-subtitle{
 footer{
     display: flex;
     flex-direction: row;
-    /* gap:10px; */
     background-color: var(--bg-grey);
     padding: 30px;
     margin-top: 50px;
     height: auto;
-
-
 }
 
 .footer-title{
