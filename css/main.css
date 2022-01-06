@@ -63,12 +63,14 @@ li{
 }
 
 textarea,
-input {
+input, input[type="search"]{
     border-radius: 0;
     background:none;
     border: none;
     outline: none;
     -webkit-appearance: none;
+    -moz-appearance: none;
+         appearance: none;
 }
 
 /***   header   ***/
@@ -313,7 +315,6 @@ section article{
     border: 4px solid #fff;
     border-radius: 20px;
     overflow: hidden;
-    /* cursor: pointer; */
 }
 
 .section-tittle {
@@ -364,14 +365,16 @@ section article{
 }
 
 #hebergements a{
-    width: 32%;
-    
-}
-
-#hebergements article{
     display: flex;
     flex-flow: column nowrap;
     width: 100%;
+    height: 100%;
+}
+
+#hebergements .item{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 32%;
     height:200px;
     margin-top: 25px;
     box-shadow: 0 0 10px #ccc;
@@ -425,12 +428,19 @@ section article{
     flex-flow: column nowrap;
 }
 
-#populaires article{
+#populaires .item{
     display: flex;
-    flex-flow: row nowrap;
+    /* flex-flow: row nowrap; */
     height: 140px;
     margin-top: 25px;
     box-shadow: 0 0 10px #ccc;
+}
+
+#populaires a{
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100%;
+    width: 100%;
 }
 
 #populaires img{

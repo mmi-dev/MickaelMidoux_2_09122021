@@ -37,7 +37,7 @@
     }
 
     #search-btn{
-        aspect-ratio: 1;
+        aspect-ratio: 1/1;
         width:auto;
         line-height:50px;
         border-radius: 13px;
@@ -53,7 +53,7 @@
 
     #btn-icon{
         height: 100%;
-        aspect-ratio: 1;
+        aspect-ratio: 1/1;
         line-height:50px;
         display: block;
         text-align: center;
@@ -109,7 +109,7 @@
         flex-flow:column nowrap;
     }
 
-    #hebergements a{
+    #hebergements .item{
         width: 100%;
     }
 
