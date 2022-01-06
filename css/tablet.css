@@ -59,10 +59,19 @@
 
     #filter{
         padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+
+    #info{
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .filter-title{
         width:100%;
+        padding:0;
     }
 
     /*** main   ***/

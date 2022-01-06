@@ -122,7 +122,6 @@
     #activites .container{
         flex-flow: column nowrap;
         height: auto;
-        /* gap: 40px */
     }
 
     #activites article{
