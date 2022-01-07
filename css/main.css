@@ -556,13 +556,13 @@ nav li:hover{
 
 /*** active effect   ***/
 
-.active-filter{
+.active-filter, .filter-btn:active{
     color: var(--main-blue);
     border-color: var(--main-blue);
     background-color: var(--light-blue);
 }
 
-.active-filter i{
+.active-filter i, .filter-btn:active i{
     color: #fff;
     background-color: var(--main-blue);
 }
