@@ -255,7 +255,7 @@ h1 .main-subtitle{
     font-size: var(--font-size-base);
     font-weight: bold;
     vertical-align: middle;
-
+    cursor: pointer;
 }
 
 .filter-btn i{
