@@ -54,22 +54,23 @@
                 <div id="filter">
                     <div class="filter-title">Filtres</div>
                     <div class="filter-items">
-                        <span class="filter-item"><a href="#">
+                        <!-- ajouter la class active-filter sur button pour donner l'état actif au bouton -->
+                        <button class="filter-btn" type="button" onclick="filter">
                             <i class="fas fa-money-bill-wave"></i>
-                            <span>Économie</span>
-                        </a></span>
-                        <span class="filter-item"><a href="#">
+                            Économie
+                        </button>
+                        <button class="filter-btn" type="button" onclick="filter">
                             <i class="fas fa-child"></i>
-                            <span>Familial</span>
-                        </a></span>
-                        <span class="filter-item"><a href="#">
+                            Familial
+                        </button>
+                        <button class="filter-btn" type="button" onclick="filter">
                             <i class="fas fa-heart"></i>
-                            <span>Romantique</span>
-                        </a></span>
-                        <span class="filter-item"><a href="#">
+                            Romantique
+                        </button>
+                        <button class="filter-btn" type="button" onclick="filter">
                             <i class="fas fa-dog"></i>
-                            <span>Animaux autorisés</span>
-                        </a></span>
+                            Animaux autorisés
+                        </button>
                     </div>
                 </div>
                 <!--info-->
@@ -87,7 +88,7 @@
                                     <img alt="Auberge de la Cannebière" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg">
                                     <div class="item-text">
                                         <h3>Auberge La Cannebière</h3>
-                                        <p class="subtitle">Nuit à partir de <strong><em>25€</em></strong></p>
+                                        <p class="subtitle">Nuit à partir de <em>25€</em></p>
                                         <div class="note">
                                             <i class="fas fa-star blue"></i>
                                             <i class="fas fa-star blue"></i>
@@ -103,7 +104,7 @@
                                     <img alt="Hôtel du port" src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg">
                                     <div class="item-text">
                                         <h3>Hôtel du port</h3>
-                                        <p class="subtitle">Nuit à partir de <strong><em>52€</em></strong></p>
+                                        <p class="subtitle">Nuit à partir de <em>52€</em></p>
                                         <div class="note">
                                             <i class="fas fa-star blue"></i>
                                             <i class="fas fa-star blue"></i>
@@ -119,7 +120,7 @@
                                     <img alt="Hôtel des mouettes" src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg">
                                     <div class="item-text">
                                         <h3>Hôtel des mouettes</h3>
-                                        <p class="subtitle">Nuit à partir de <strong><em>76€</em></strong></p>
+                                        <p class="subtitle">Nuit à partir de <em>76€</em></p>
                                         <div class="note">
                                             <i class="fas fa-star blue"></i>
                                             <i class="fas fa-star blue"></i>
@@ -135,7 +136,7 @@
                                     <img alt="Hôtel de la mer" src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg">
                                     <div class="item-text">
                                         <h3>Hôtel de la mer</h3>
-                                        <p class="subtitle">Nuit à partir de <strong><em>46€</em></strong></p>
+                                        <p class="subtitle">Nuit à partir de <em>46€</em></p>
                                         <div class="note">
                                             <i class="fas fa-star blue"></i>
                                             <i class="fas fa-star blue"></i>
@@ -151,7 +152,7 @@
                                     <img alt="Auberge Le panier" src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg">
                                     <div class="item-text">
                                         <h3>Auberge Le panier</h3>
-                                        <p class="subtitle">Nuit à partir de <strong><em>23€</em></strong></p>
+                                        <p class="subtitle">Nuit à partir de <em>23€</em></p>
                                         <div class="note">
                                             <i class="fas fa-star blue"></i>
                                             <i class="fas fa-star blue"></i>
@@ -167,7 +168,7 @@
                                     <img alt="Hôtel chez Amina" src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg">
                                     <div class="item-text">
                                         <h3>Hôtel chez Amina</h3>
-                                        <p class="subtitle">Nuit à partir de <strong><em>96€</em></strong></p>
+                                        <p class="subtitle">Nuit à partir de <em>96€</em></p>
                                         <div class="note">
                                             <i class="fas fa-star blue"></i>
                                             <i class="fas fa-star blue"></i>
@@ -193,7 +194,7 @@
                                         <img alt="Hôtel Le soleil du matin" src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg">
                                         <div class="item-text">
                                             <h3>Hôtel Le soleil du matin</h3>
-                                            <p class="subtitle">Nuit à partir de <strong><em>128€</em></strong></p>
+                                            <p class="subtitle">Nuit à partir de <em>128€</em></p>
                                             <div class="note">
                                                 <i class="fas fa-star blue"></i>
                                                 <i class="fas fa-star blue"></i>
@@ -209,7 +210,7 @@
                                         <img alt="Au coeur de l'eau Chambres d'hôtes" src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg">
                                         <div class="item-text">
                                             <h3>Au coeur de l'eau Chambres d'hôtes</h3>
-                                            <p class="subtitle">Nuit à partir de <strong><em>71€</em></strong></p>
+                                            <p class="subtitle">Nuit à partir de <em>71€</em></p>
                                             <div class="note">
                                                 <i class="fas fa-star blue"></i>
                                                 <i class="fas fa-star blue"></i>
@@ -225,7 +226,7 @@
                                         <img alt="Hôtel Tout bleu et Blanc" src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg">
                                         <div class="item-text">
                                             <h3>Hôtel Tout bleu et Blanc</h3>
-                                            <p class="subtitle">Nuit à partir de <strong><em>68€</em></strong></p>
+                                            <p class="subtitle">Nuit à partir de <em>68€</em></p>
                                             <div class="note">
                                                 <i class="fas fa-star blue"></i>
                                                 <i class="fas fa-star blue"></i>
