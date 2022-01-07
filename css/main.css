@@ -62,8 +62,7 @@ li{
     list-style: none;
 }
 
-textarea,
-input, input[type="search"]{
+button, input[type="search"]{
     border-radius: 0;
     background:none;
     border: none;
@@ -240,27 +239,31 @@ h1 .main-subtitle{
     gap: 20px;
 }
 
-.filter-item{
+/***   bouton de filtre   ***/
+.filter-btn{
     display: flex;
     flex-flow: row nowrap;
-    margin-right:20px;
-}
-
-.filter-item a{
-    display: flex;
+    margin-right:10px;
+    padding-right:20px;
+    background: #fff;
     position: relative;
     height: 48px;
     border: 2px solid var(--bg-grey);
     border-radius: 24Px;
-    line-height: 44px;
     align-items: center;
+    line-height: 40px;
+    font-size: var(--font-size-base);
+    font-weight: bold;
+    vertical-align: middle;
+
 }
 
-.filter-item i{
+.filter-btn i{
     height: calc(100% + 4px);
     position: relative;
     left:-2px;
-    aspect-ratio: 1/1;
+    margin-right:15px;
+    aspect-ratio: 1/1 !important;
     font-size: var(--font-size-12);
     background-color: var(--light-blue);
     color: var(--main-blue);
@@ -269,16 +272,6 @@ h1 .main-subtitle{
     vertical-align: middle;
     border-radius: 24px;
     overflow: hidden;
-
-}
-
-.filter-item span{
-    padding: 0 20px 0 13px;
-    height: 100%;
-    line-height: 40px;
-    font-size: var(--font-size-base);
-    font-weight: bold;
-    vertical-align: middle;
 }
 
 /***   Info   ***/
@@ -546,7 +539,12 @@ nav li:hover{
     color: var(--main-blue);
 }
 
-.filter-item a:hover{
+/* .filter-item a:hover{
+    color: var(--main-blue);
+    box-shadow: 0 0 5px var(--main-blue);
+} */
+
+.filter-btn:hover{
     color: var(--main-blue);
     box-shadow: 0 0 5px var(--main-blue);
 }
@@ -558,12 +556,13 @@ nav li:hover{
 
 /*** active effect   ***/
 
-.filter-item a:active{
+.active-filter{
     color: var(--main-blue);
     border-color: var(--main-blue);
+    background-color: var(--light-blue);
 }
 
-.filter-item a:active i{
+.active-filter i{
     color: #fff;
     background-color: var(--main-blue);
 }
