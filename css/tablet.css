@@ -9,7 +9,7 @@
         width: 100%;
     }
 
-    h1, #filter, #info, #main-block, #activites, footer {
+    h1, #filter, #main-block, #activites, jfooter {
         width:100%;
         padding: 0 20px;
     }
@@ -53,6 +53,7 @@
 
     h1{
         margin: 10px 0;
+        padding: 0;
     }
 
     /***   Filtre   ***/
@@ -63,15 +64,27 @@
         margin-right: 0;
     }
 
+    .filter-title{
+        width:100%;
+        padding:0;
+    }
+
+    /***   Info   ***/
 
     #info{
         margin-left: 0;
         margin-right: 0;
     }
 
-    .filter-title{
-        width:100%;
-        padding:0;
+    #info i{
+        margin-left:0;
+    }
+
+    /*** recherche   ***/
+
+    #search {
+        margin-left: 0;
+        margin-right: 0;
     }
 
     /*** main   ***/
@@ -119,8 +132,8 @@
     
     /***   footer   ***/
 
-    footer{
-        padding: 30px;
+    #footer{
+        padding: 30px 10px;
         height: auto;
     }
 }

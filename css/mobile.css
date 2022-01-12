@@ -9,7 +9,7 @@
         padding: 0 15px;
     }
 
-    #hebergements, #activites, footer {
+    #hebergements, #activites, #footer {
         width:100%;
         padding: 30px 30px 0 30px;
     }
@@ -23,7 +23,7 @@
     /***   Recherche   ***/
 
     #search{
-        margin:30px 20px;
+        margin:30px 15px;
         width: calc(100% - 40px);
         justify-content: center;
     }
@@ -135,14 +135,15 @@
 
     /***   footer   ***/
 
-    footer{
+    #footer{
         flex-flow: column nowrap;
         height: auto;
         margin-top: 10px;
     }
 
     .footer-block{
-        padding-bottom: 30px;
+        padding: 0 0 30px 0;
+        margin: 0;
         width: 100%;
         height: auto;
     }
