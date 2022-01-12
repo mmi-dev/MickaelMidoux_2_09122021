@@ -30,6 +30,9 @@
 
 body{
     font-size: var(--font-size-base);
+}
+
+#wrapper{
     margin: 0 auto;
     max-width: 1400px;
 }
@@ -570,10 +573,19 @@ nav li:hover{
 /***   footer   ***/
 
 footer{
+    width:100%;
+    background-color: var(--bg-grey);
+    height: auto;
+}
+
+#footer{
     display: flex;
     flex-direction: row;
-    background-color: var(--bg-grey);
-    padding: 30px;
+    align-content: space-between;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 30px 0;
     margin-top: 50px;
     height: auto;
 }
@@ -586,6 +598,7 @@ footer{
     display: flex;
     flex-direction: column;
     width: 33.3%;
+    margin: auto 30px;
 }
 
 footer li{
